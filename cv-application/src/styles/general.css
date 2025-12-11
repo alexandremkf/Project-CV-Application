@@ -1,0 +1,13 @@
+/* src/styles/general.css */
+.section .form { display: grid; gap: 10px; }
+.section label { display:flex; flex-direction: column; font-size: 14px; }
+.section input, .section textarea {
+  padding: 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);
+  background: #071027; color: #eaf4ff;
+}
+.section .buttons { margin-top: 8px; }
+.section button {
+  padding: 8px 12px; border: none; border-radius: 8px; cursor: pointer;
+  background: linear-gradient(90deg,#4f46e5,#06b6d4); color: white;
+}
+.display p { margin: 6px 0; }
